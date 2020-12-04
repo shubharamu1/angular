@@ -1,0 +1,83 @@
+
+  
+<!-- <div class="col-md-4 offset-md-4" >  -->
+  
+  
+    <div class="card" >
+        <div class="card-header">
+            <h3 class="text-lg-center">Edit Profile!</h3>
+        </div>
+  
+       <form class="needs-validation" novalidate  (ngSubmit)="onSubmit()">
+      <div class="form-row">
+               <div class="col-md-6 mb-3">
+                   <label for="validationCustom01">First name</label>
+                   <input type="text" class="form-control form-control-sm marginRow" id="validationCustom01" value="" required>
+                    <div class="valid-feedback">
+                            Looks good!
+                    </div>
+                </div>
+        <div class="form-row">
+        <div class="col-md-6 mb-3">
+          <label for="validationCustom02">Last name</label>
+          <input type="text" class="form-control form-control-sm marginRow"  id="validationCustom02" value="" required>
+          <div class="valid-feedback">
+            Looks good!
+          </div>
+        </div>
+        </div>
+           <div class="form-row">
+                    <div class="col-md-6 mb-3">
+                          <label for="validationCustom13">Phone No</label>
+                              <input type="text" class="form-control form-control-sm" id="validationCustom13" value="" required>
+                         <div class="valid-feedback">
+                             Looks good!
+                         </div>
+                    </div>
+                <div class="col-md-6 mb-3">
+                       <label for="validationCustom14">Email Id</label>
+                       <input type="password" class="form-control form-control-sm" id="validationCustom14" value="" required>
+                    <div class="valid-feedback">
+                       Looks good!
+                    </div>
+                </div>
+            </div>
+            
+            <div class="card-footer">
+              <button type="submit" class="btn btn-secondary offset-md-4"  (click)="usernav()">Update</button>
+             <button type="reset" class="btn btn-secondary ml-2" name="reset"> reset</button>
+           </div>
+       
+    </div>
+    
+    <script>
+    // Example starter JavaScript for disabling form submissions if there are invalid fields
+    (function() {
+      'use strict';
+      window.addEventListener('load', function() {
+        // Fetch all the forms we want to apply custom Bootstrap validation styles to
+        var forms = document.getElementsByClassName('needs-validation');
+        // Loop over them and prevent submission
+        var validation = Array.prototype.filter.call(forms, function(form) {
+          form.addEventListener('submit', function(event) {
+            if (form.checkValidity() === false) {
+              event.preventDefault();
+              event.stopPropagation();
+            }
+            form.classList.add('was-validated');
+          }, false);
+        });
+      }, false);
+    })();
+    </script>
+    <router-outlet></router-outlet>
+
+<!-- </div>  -->
+
+
+
+
+
+
+
+ <!-- <h1>hello how r u</h1> -->

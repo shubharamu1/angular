@@ -1,0 +1,23 @@
+
+
+.a{
+    background-image: url('https://images.app.goo.gl/WijuLjTfQLv1CPdGA');
+   background-size: 100%;
+   /* background-size: inherit; */
+   height: 100%;
+   width: 100%;
+   background-size: cover;
+
+   margin: auto;
+}
+footer {
+   
+  text-align: center;
+  
+  padding:5px;
+  background-color:black;
+  color:white;
+  display: block;
+  margin-top: 500px;
+
+} 

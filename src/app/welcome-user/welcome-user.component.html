@@ -1,0 +1,32 @@
+
+
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <!-- <div style="float: right; margin-top: px;"><i class="fas fa-sign-out-alt"></i>
+        <button type="logout" class="btn btn-secondary ml-2" name="logout" (click)="logout()"> Logout</button></div> -->
+        <div class="mt-8 pt-8"></div>
+<div style="height: 70px;">
+    <div *ngIf='!flag && isSubmited' class="alert alert-danger col-md-4 offset-md-4">
+        Credentials Invalid
+    </div>
+</div>
+<div class="col-md-4 offset-md-3">
+    <div class="card">
+        <div class="card-header">
+            <h3 class="text-lg-center">Welcome USER!</h3>
+        </div>
+        <form [formGroup]='loginForm' (ngSubmit)='login()'>
+            <div class="card-body">
+               <pre>qwertyuidfghjdxcfgvbhjnmfcgvbhjnmkwesdrtfgyhujc vbndf</pre>
+               <pre>qwertyuidfghjdxcfgvbhjnmfcgvbhjnmkwesdrtfgyhujc vbndf</pre>
+               <pre>qwertyuidfghjdxcfgvbhjnmfcgvbhjnmkwesdrtfgyhujc vbndf</pre>
+               <pre>qwertyuidfghjdxcfgvbhjnmfcgvbhjnmkwesdrtfgyhujc vbndf</pre>
+               
+
+                    
+              
+            </div>
+        </form>
+    </div>
+</div>
+<!-- style="display: block; margin-left: auto; margin-right: auto; width: 40%;" -->
+<!-- <router-outlet></router-outlet> -->

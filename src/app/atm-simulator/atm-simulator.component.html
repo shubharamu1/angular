@@ -1,0 +1,51 @@
+
+<div style="padding-top: 0px;">
+  
+    <div class="card col-lg-5 offset-lg-4 mt-5" >
+    <div class="card-body ">
+      
+        <div class="card-header">
+            <h3 class="text-lg-center">ATM SIMULATOR</h3>
+        </div>
+        <p>&nbsp;</p>
+  <form >
+      <div class="form-row">
+          <div class="form-group">
+              <label> Enter Amount(in INR)</label>
+              <input type="text" class="form-control no-outline" id="accno">
+          </div>
+      </div>
+      <fieldset class="form-group">
+          <div class="row">
+            <legend class="col-form-label col-sm-4 pt-0">Select Type</legend>
+            <div class="col-sm-10">
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1">
+                <label class="form-check-label" for="gridRadios1">
+                  credit
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                <label class="form-check-label" for="gridRadios2">
+                  debit
+                </label>
+              </div>
+            </div>
+          </div>
+        </fieldset>
+        <div class="form-row">
+          <div class="form-group">
+              <label> Pin(4 digit)</label>
+              <input type="password" class="form-control " >
+          </div>
+      </div>
+      
+       
+        <!-- <button type="button" class="btn btn-danger" style='margin-right:16px'>back</button> -->
+        <button type="submit" class="btn btn-secondary offset-md-4"  (click)="adminnav()">Submit</button>
+        <button type="reset" class="btn btn-secondary ml-2" name="reset"> reset</button>
+    </form>
+      </div>
+    </div>
+  </div>

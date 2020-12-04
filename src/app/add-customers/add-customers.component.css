@@ -1,0 +1,42 @@
+.card{
+     margin-left: 15%;
+    margin-right: 30% ;
+    margin-top: 0% ;
+    margin-bottom: 600% ;
+    width:800px;
+   
+}
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: groove;
+    background-color:white;
+    top:10px;
+    line-height: 0px;
+  }
+  .no-outline:focus {
+    outline: none;
+  }
+
+  .marginRow{
+    margin-bottom:1px;
+    margin-bottom:1px
+
+  }
+
+  .form-group{
+ padding-right:50px;
+ padding-left:50px;
+ padding-top:0px;
+ padding-bottom:0px;
+
+
+  }
+  .a{
+    height:650px;
+    overflow-y: hidden;
+    position:relative;
+  }
+  
+  
